@@ -1,0 +1,46 @@
+ 
+
+
+
+
+<html>
+<head>
+<title>Welcome to ASC !</title>
+
+<link type="image" href="PeoplePhotoes/test.jpeg" rel="shortcut icon"/>
+
+<link type="image" href="PeoplePhotoes/test.jpeg" rel="shortcut icon"/>
+
+</head>
+		
+
+		<script language="javascript" type="text/javascript">
+		if (self != top) 
+		{
+		    if (document.images)
+		    {
+		        top.location.replace("index.jsp");
+		    }
+		    else
+		    {	
+		    	top.location.href = window.location.href;
+		    }
+		}
+		
+		</script>	
+		
+<frameset cols=250px,* border=0 frameborder=0 framespacing=0  id="leftframeset">
+	<frame src="redirect.jsp"  name="leftPage" id="leftname" tabindex="1">
+	<frameset rows=30px,* border=0 frameborder=0 framespacing=0  >
+		<frame src="WebPages/HeadFoot/Header.jsp"  name="rightPage1" id="right1" tabindex="60" scrolling="no">	
+		<frame src="WebPages/Login.jsp"  name="rightPage" id="right2" tabindex="60">
+	</frameset>	
+</frameset>
+
+
+<body></body>
+<noframes>
+            <a href="flat_menu.jsp">Your browser does not support frames. Click Here to enter my main Page</a>
+</noframes>
+
+</html> 
